@@ -1,0 +1,5 @@
+#!/bin/bash
+let seconds=$1\*60
+sleep $seconds
+notify-send "Ding Dong!" "$1 minutes"
+

@@ -1,0 +1,2 @@
+#!/bin/sh
+terminator -m --working-directory="Arbeit/$1" -l work5

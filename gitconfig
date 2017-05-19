@@ -1,0 +1,35 @@
+[core]
+	editor = vim
+[merge]
+	tool = meld
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	ss = status -s
+	cm = commit --verbose
+	ca = commit -a --verbose
+	am = commit --amend
+	ph = push
+	phff = push --force
+	ft = fetch
+	pl = pull
+	pr = pull --rebase
+	ap = add -p
+	df = diff
+	aa = !git add -u && git add . && git status
+	lg = log --graph --pretty=format:'%C(bold red)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold green)<%an>%Creset' --abbrev-commit --date=relative
+	ds = diff --staged
+	cim = commit -m
+	ciam = commit -am
+	uncommit = reset --soft HEAD^
+	rh = reset --hard
+	cob = checkout -b
+[push]
+	default = simple
+[user]
+	email = milj@users.noreply.github.com
+	name = Milosz Jerkiewicz
