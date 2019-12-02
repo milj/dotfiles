@@ -1,0 +1,42 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "editor.autoIndent": false,
+    "editor.fontSize": 13,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "workbench.colorTheme": "Monokai",
+    "editor.tabSize": 2,
+    "files.associations": {
+        "*.tpl": "python"
+    },
+    "editor.wordWrapColumn": 120,
+    "files.enableTrash": false,
+    "javascript.autoClosingTags": false,
+    "window.titleBarStyle": "custom",
+    "workbench.startupEditor": "none",
+    "window.restoreWindows": "all",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoSurround": "never",
+    "[plaintext]": {},
+    "editor.acceptSuggestionOnEnter": "off",
+    "python.jediEnabled": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.renderFinalNewline": true,
+    "javascript.suggest.autoImports": false,
+    "editor.renderWhitespace": "all",
+    "cSpell.userWords": [
+        "django",
+        "itertools",
+        "itunes",
+        "mutex",
+        "pylint",
+        "sh",
+        "tzinfo",
+        "upload"
+    ],
+    "window.zoomLevel": 0,
+    "explorer.autoReveal": false
+}
