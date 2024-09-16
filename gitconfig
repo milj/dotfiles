@@ -1,9 +1,11 @@
 [core]
 	editor = vim
+	excludesfile = /home/milosz/.gitignore_global
 [merge]
 	tool = meld
 [alias]
 	co = checkout
+	cp = cherry-pick
 	br = branch
 	ci = commit
 	st = status
@@ -14,7 +16,7 @@
 	ca = commit -a --verbose
 	am = commit --amend
 	ph = push
-	phff = push --force
+	phff = push --force-with-lease
 	ft = fetch
 	pl = pull
 	pr = pull --rebase
@@ -28,8 +30,10 @@
 	uncommit = reset --soft HEAD^
 	rh = reset --hard
 	cob = checkout -b
+	mnff = merge --no-ff
+	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
 [push]
 	default = simple
 [user]
 	email = milj@users.noreply.github.com
-	name = Milosz Jerkiewicz
+	name = Miłosz Jerkiewicz
